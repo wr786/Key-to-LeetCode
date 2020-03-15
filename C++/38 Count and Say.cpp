@@ -1,6 +1,16 @@
+// 执行用时 :
+// 0 ms
+// , 在所有 C++ 提交中击败了
+// 100.00%
+// 的用户
+// 内存消耗 :
+// 8.2 MB
+// , 在所有 C++ 提交中击败了
+// 100.00%
+// 的用户
 class Solution {
 public:
-    string count_and_say(const string& str, int k) {
+    string count_and_say(const string& str, const int k) {
         if(k == 0) return str;
         int l = str.length();
         string nxtStr;
