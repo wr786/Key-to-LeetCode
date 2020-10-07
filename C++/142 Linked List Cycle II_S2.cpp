@@ -8,7 +8,7 @@
  */
 class Solution {
 public:
-    map<ListNode*, bool> vis;
+    unordered_map<ListNode*, bool> vis;
 
     ListNode *detectCycle(ListNode *head) {
         if(head == NULL) return NULL;
